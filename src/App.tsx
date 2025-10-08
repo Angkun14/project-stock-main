@@ -9,7 +9,7 @@ function App() {
       {/* Header */}
       <header className="site-header">
         <div className="container header-inner">
-          <img src="src/logo/logo1.png"  width="150" height="150" />
+          <img src="src/index/logo1.png"  width="150" height="150" />
           <a className="brand" href="/">WarehouseOne</a>
 
           {/* ปุ่มเมนูมือถือ */}
