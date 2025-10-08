@@ -9,9 +9,8 @@ function App() {
       {/* Header */}
       <header className="site-header">
         <div className="container header-inner">
-          <img src="src/index/logo1.png"  width="150" height="150" />
+          <img src="public/logo1.png"  width="150" height="150" />
           <a className="brand" href="/">WarehouseOne</a>
-
           {/* ปุ่มเมนูมือถือ */}
           <button
             className={`menu-btn ${menuOpen ? 'open' : ''}`}
@@ -31,7 +30,7 @@ function App() {
             <a href="#">บทความ</a>
             <a href="#">เกี่ยวกับเรา</a>
             <a href="#">ติดต่อเรา</a>
-            <a className="cta" href="#">
+            <a className="cta" href="https://project-stock-main.vercel.app/">
               เข้าสู่ระบบ
             </a>
           </nav>
